@@ -1,0 +1,157 @@
+* {
+	outline: none;
+}
+.panel-pages {
+    min-height: 100px;
+    display: block;
+}
+.panel-pages h4 {
+	font-weight: 400;
+}
+.panel-add h4 {
+    margin: 25px;
+}
+a.panel-add {
+    color: #444;
+	text-decoration: none;
+}
+a.panel-add:hover {
+	color: #888;
+}
+code a,
+code a:hover {
+	color: #c7254e;
+	text-decoration: none;
+}
+.btn-danger {
+	margin-left: 5px;
+}
+.forms-group {
+	margin-bottom: 15px;
+}
+.forms-group h5 {
+	margin: 0;
+	float: left;
+}
+.forms-group:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+.url-slug {
+    color: #AAA;
+    font-size: .92857em;
+    word-break: break-word;
+}
+#url {
+	min-width: 5px;
+	width: 100%;
+	padding: 1px 4px;
+	border: none;
+	background: #FFFBCC;
+	color: #666;
+}
+#url:focus {
+	width: 300px;
+    outline: none;
+	box-shadow: none;
+}
+.CodeMirror {
+	height: 500px !important;
+	border-radius: 3px;
+	border: 1px solid #E2E7E9;
+}
+.form-control {
+	box-shadow: none;
+	border-color: #E2E7E9 !important;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5CB85C !important;
+}
+.simditor {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+.simditor .simditor-toolbar {
+	border-radius: 3px 3px 0 0;
+}
+.simditor .simditor-wrapper,
+.simditor .simditor-body, .editor-style {
+	border-radius: 0 0 3px 3px;
+	background-color: transparent !important;
+}
+.contentarea h1 {
+	float: left;
+}
+.foot {
+	color: #999;
+	font-size: 12px;
+	margin: 30px 0;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 32px !important;
+}
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 34px !important;
+}
+.select2-dropdown,
+.select2-container--default .select2-selection--single {
+	border-color: #E2E7E9 !important;
+}
+.select2-container:focus,
+.select2-dropdown {
+	box-shadow: none !important;
+}
+.page-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.page-list li {
+	clear: both;
+	padding: 12px 8px;
+	border-bottom: 1px solid #E2E7E9;
+}
+.page-list li:hover {
+	background-color: #F5F5F5;
+}
+.page-list li h4 {
+	width: 20%;
+	margin: 0;
+	font-size: 14px;
+	display: inline-block;
+}
+.page-list li .cats {
+	width: 12%;
+	display: inline-block;
+}
+.page-list li .mono {
+	width: 51%;
+	display: inline-block;
+}
+.page-list li .tool {
+	width: 15%;
+	text-align: right;
+	display: inline-block;
+}
+.well {
+	padding: 12px;
+	box-shadow: none;
+	border-color: #E2E7E9 !important;
+}
+.well h4 {
+	margin: 0;
+	cursor: pointer;
+	font-size: 14px;
+}
+.well .fa {
+	color: #999;
+}
+.well textarea {
+	margin-top: 15px;
+}
+.help-block {
+	font-size: 12px;
+}
